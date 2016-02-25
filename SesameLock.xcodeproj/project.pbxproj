@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F19032C1C7C5450009895A9 /* Flashlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19032B1C7C5450009895A9 /* Flashlight.swift */; };
+		7F1903351C7C639E009895A9 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1903331C7C639E009895A9 /* Utils.m */; };
+		7F19F6541C76D0D500FD4DEB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19F6531C76D0D500FD4DEB /* ListViewController.swift */; };
+		7F3830451C6F127B005A4F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3830441C6F127B005A4F1D /* AppDelegate.swift */; };
+		7F3830471C6F127B005A4F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3830461C6F127B005A4F1D /* ViewController.swift */; };
+		7F38304A1C6F127B005A4F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3830481C6F127B005A4F1D /* Main.storyboard */; };
+		7F38304C1C6F127B005A4F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F38304B1C6F127B005A4F1D /* Assets.xcassets */; };
+		7F38304F1C6F127B005A4F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F38304D1C6F127B005A4F1D /* LaunchScreen.storyboard */; };
+		7F425DA51C7709E500D2D992 /* BluetoothMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F425DA41C7709E500D2D992 /* BluetoothMethod.swift */; };
+		7F425DA71C770A7500D2D992 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F425DA61C770A7500D2D992 /* CoreBluetooth.framework */; };
+		7F56BC331C79E07B00D9587D /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56BC321C79E07B00D9587D /* CenterViewController.swift */; };
+		7F8EBB871C79EC32004F7C90 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EBB861C79EC32004F7C90 /* AboutViewController.swift */; };
+		7F9429F91C6F330300DF0769 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9429F81C6F330300DF0769 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F19032B1C7C5450009895A9 /* Flashlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashlight.swift; sourceTree = "<group>"; };
+		7F19032F1C7C636D009895A9 /* SesameLock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SesameLock-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F1903331C7C639E009895A9 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7F1903341C7C639E009895A9 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7F19F6531C76D0D500FD4DEB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7F3830411C6F127B005A4F1D /* SesameLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesameLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3830441C6F127B005A4F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3830461C6F127B005A4F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F3830491C6F127B005A4F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F38304B1C6F127B005A4F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F38304E1C6F127B005A4F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F3830501C6F127B005A4F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F425DA41C7709E500D2D992 /* BluetoothMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMethod.swift; sourceTree = "<group>"; };
+		7F425DA61C770A7500D2D992 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7F56BC321C79E07B00D9587D /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		7F8EBB861C79EC32004F7C90 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7F9429F81C6F330300DF0769 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F38303E1C6F127B005A4F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F425DA71C770A7500D2D992 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F19032D1C7C628D009895A9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7F19032F1C7C636D009895A9 /* SesameLock-Bridging-Header.h */,
+				7F19032E1C7C62DC009895A9 /* Untils */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		7F19032E1C7C62DC009895A9 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				7F1903331C7C639E009895A9 /* Utils.m */,
+				7F1903341C7C639E009895A9 /* Utils.h */,
+			);
+			name = Untils;
+			sourceTree = "<group>";
+		};
+		7F3830381C6F127B005A4F1D = {
+			isa = PBXGroup;
+			children = (
+				7F425DA61C770A7500D2D992 /* CoreBluetooth.framework */,
+				7F3830431C6F127B005A4F1D /* SesameLock */,
+				7F3830421C6F127B005A4F1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3830421C6F127B005A4F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3830411C6F127B005A4F1D /* SesameLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3830431C6F127B005A4F1D /* SesameLock */ = {
+			isa = PBXGroup;
+			children = (
+				7F19032D1C7C628D009895A9 /* Framework */,
+				7F9429F71C6F2DA300DF0769 /* Controller */,
+				7F9429F51C6F2D8A00DF0769 /* Sources */,
+				7F3830441C6F127B005A4F1D /* AppDelegate.swift */,
+				7F3830461C6F127B005A4F1D /* ViewController.swift */,
+				7F3830481C6F127B005A4F1D /* Main.storyboard */,
+				7F38304B1C6F127B005A4F1D /* Assets.xcassets */,
+				7F38304D1C6F127B005A4F1D /* LaunchScreen.storyboard */,
+				7F3830501C6F127B005A4F1D /* Info.plist */,
+			);
+			path = SesameLock;
+			sourceTree = "<group>";
+		};
+		7F9429F51C6F2D8A00DF0769 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7F425DA41C7709E500D2D992 /* BluetoothMethod.swift */,
+				7F19032B1C7C5450009895A9 /* Flashlight.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		7F9429F71C6F2DA300DF0769 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F9429F81C6F330300DF0769 /* LoginViewController.swift */,
+				7F19F6531C76D0D500FD4DEB /* ListViewController.swift */,
+				7F56BC321C79E07B00D9587D /* CenterViewController.swift */,
+				7F8EBB861C79EC32004F7C90 /* AboutViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3830401C6F127B005A4F1D /* SesameLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3830531C6F127B005A4F1D /* Build configuration list for PBXNativeTarget "SesameLock" */;
+			buildPhases = (
+				7F38303D1C6F127B005A4F1D /* Sources */,
+				7F38303E1C6F127B005A4F1D /* Frameworks */,
+				7F38303F1C6F127B005A4F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SesameLock;
+			productName = SesameLock;
+			productReference = 7F3830411C6F127B005A4F1D /* SesameLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3830391C6F127B005A4F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "翟怀楼";
+				TargetAttributes = {
+					7F3830401C6F127B005A4F1D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6687NJS8Y9;
+					};
+				};
+			};
+			buildConfigurationList = 7F38303C1C6F127B005A4F1D /* Build configuration list for PBXProject "SesameLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3830381C6F127B005A4F1D;
+			productRefGroup = 7F3830421C6F127B005A4F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3830401C6F127B005A4F1D /* SesameLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F38303F1C6F127B005A4F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F38304F1C6F127B005A4F1D /* LaunchScreen.storyboard in Resources */,
+				7F38304C1C6F127B005A4F1D /* Assets.xcassets in Resources */,
+				7F38304A1C6F127B005A4F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F38303D1C6F127B005A4F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F425DA51C7709E500D2D992 /* BluetoothMethod.swift in Sources */,
+				7F9429F91C6F330300DF0769 /* LoginViewController.swift in Sources */,
+				7F1903351C7C639E009895A9 /* Utils.m in Sources */,
+				7F56BC331C79E07B00D9587D /* CenterViewController.swift in Sources */,
+				7F19F6541C76D0D500FD4DEB /* ListViewController.swift in Sources */,
+				7F3830471C6F127B005A4F1D /* ViewController.swift in Sources */,
+				7F8EBB871C79EC32004F7C90 /* AboutViewController.swift in Sources */,
+				7F19032C1C7C5450009895A9 /* Flashlight.swift in Sources */,
+				7F3830451C6F127B005A4F1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F3830481C6F127B005A4F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3830491C6F127B005A4F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F38304D1C6F127B005A4F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F38304E1C6F127B005A4F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F3830511C6F127B005A4F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3830521C6F127B005A4F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3830541C6F127B005A4F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SesameLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.loulan.SesameLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SesameLock/SesameLock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F3830551C6F127B005A4F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SesameLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.loulan.SesameLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SesameLock/SesameLock-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F38303C1C6F127B005A4F1D /* Build configuration list for PBXProject "SesameLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3830511C6F127B005A4F1D /* Debug */,
+				7F3830521C6F127B005A4F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3830531C6F127B005A4F1D /* Build configuration list for PBXNativeTarget "SesameLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3830541C6F127B005A4F1D /* Debug */,
+				7F3830551C6F127B005A4F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3830391C6F127B005A4F1D /* Project object */;
+}
